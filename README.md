@@ -9,7 +9,6 @@ Validate Domain and fetch their favicon using base64 algorithm.
 5} We will storing only these domains who prefers https schema.
 6} Based on the file "alive.txt" we will encode the subdomains by requesting and using base64 algorithm from codecs library.  
 7} Further we will perform hash function from mmh library and store final hash favicons in "hash.txt" file.  
-8} 
 
 # Subfinder Installation
 go install https://github.com/projectdiscovery/subfinder
